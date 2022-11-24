@@ -57,6 +57,3 @@ class Base():
     def loadyaml(self, filepath: str):
         with open(filepath, 'r', encoding='utf-8') as file:
             return yaml.load(file, Loader=yaml.FullLoader)
-
-
-

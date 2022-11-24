@@ -1,5 +1,221 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00725E93+2449043]\n\tOrdinal0 [0x00658281+1606273]\n\tOrdinal0 [0x0054F732+522034]\n\tOrdinal0 [0x004E1949+72009]\n\tOrdinal0 [0x004F9F27+171815]\n\tOrdinal0 [0x004F89FA+166394]\n\tOrdinal0 [0x004F85D4+165332]\n\tOrdinal0 [0x004D232E+9006]\n\tOrdinal0 [0x004D2766+10086]\n\tOrdinal0 [0x004D2E30+11824]\n\tOrdinal0 [0x0066D7F7+1693687]\n\tGetHandleVerifier [0x007C4576+522742]\n\tGetHandleVerifier [0x007C42B4+522036]\n\tGetHandleVerifier [0x007D9587+608775]\n\tGetHandleVerifier [0x007C4DE6+524902]\n\tOrdinal0 [0x00665BDC+1661916]\n\tOrdinal0 [0x004D21E2+8674]\n\tOrdinal0 [0x004D1F26+7974]\n\tGetHandleVerifier [0x009D39BC+2682428]\n\tBaseThreadInitThunk [0x772D6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77B07C14+228]\n\tRtlGetAppContainerNamedObjectPath [0x77B07BE4+180]",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "4e3b15f0b1999ee9",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284857868,
+          "stop" : 1669284857868,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "49cf01c02dd246a6",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858058,
+          "stop" : 1669284858058,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data4]",
+        "uid" : "541ce1741e983d2f",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858097,
+          "stop" : 1669284858098,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data6]",
+        "uid" : "d78e6f95248f54d",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858144,
+          "stop" : 1669284858144,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data8]",
+        "uid" : "fd752779fcd719ce",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858187,
+          "stop" : 1669284858187,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data9]",
+        "uid" : "35689527f7945216",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858227,
+          "stop" : 1669284858227,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data11]",
+        "uid" : "7b8e3becc5d3eee8",
+        "parentUid" : "6017989fc51dcecb0f7c19a4e35ff9e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858267,
+          "stop" : 1669284858267,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      } ],
+      "uid" : "6017989fc51dcecb0f7c19a4e35ff9e9"
+    }, {
+      "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00725E93+2449043]\n\tOrdinal0 [0x00658281+1606273]\n\tOrdinal0 [0x0054F732+522034]\n\tOrdinal0 [0x004E1D07+72967]\n\tOrdinal0 [0x004E2E50+77392]\n\tOrdinal0 [0x004E2DE9+77289]\n\tOrdinal0 [0x0066D7F7+1693687]\n\tGetHandleVerifier [0x007C4576+522742]\n\tGetHandleVerifier [0x007C42B4+522036]\n\tGetHandleVerifier [0x007D9587+608775]\n\tGetHandleVerifier [0x007C4DE6+524902]\n\tOrdinal0 [0x00665BDC+1661916]\n\tOrdinal0 [0x0066F15B+1700187]\n\tOrdinal0 [0x0066F2C3+1700547]\n\tOrdinal0 [0x00685135+1790261]\n\tBaseThreadInitThunk [0x772D6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77B07C14+228]\n\tRtlGetAppContainerNamedObjectPath [0x77B07BE4+180]",
+      "children" : [ {
+        "name" : "test_login[data2]",
+        "uid" : "12fe5fe4ce7380e8",
+        "parentUid" : "75aaab01f06509fd2afe912b50f68ef8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284857868,
+          "stop" : 1669284857868,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data3]",
+        "uid" : "44265cada921f1b9",
+        "parentUid" : "75aaab01f06509fd2afe912b50f68ef8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858090,
+          "stop" : 1669284858090,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data5]",
+        "uid" : "7f48d74eb9ea72f1",
+        "parentUid" : "75aaab01f06509fd2afe912b50f68ef8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858144,
+          "stop" : 1669284858144,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data7]",
+        "uid" : "4338210a94c6a294",
+        "parentUid" : "75aaab01f06509fd2afe912b50f68ef8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858189,
+          "stop" : 1669284858189,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      }, {
+        "name" : "test_login[data10]",
+        "uid" : "e570c7ec4a4a7dcd",
+        "parentUid" : "75aaab01f06509fd2afe912b50f68ef8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669284858237,
+          "stop" : 1669284858237,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+      } ],
+      "uid" : "75aaab01f06509fd2afe912b50f68ef8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
