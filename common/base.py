@@ -58,28 +58,5 @@ class Base():
         with open(filepath, 'r', encoding='utf-8') as file:
             return yaml.load(file, Loader=yaml.FullLoader)
 
-    # 连接数据库
-    def con_mysql(self):
-        con = pymysql.connect(
-            host='',
-            port=3306,
-            user='',
-            passwd='',
-            db='',
-            charset='utf8'
-        )
-        # 创建游标
-        cur = con.cursor()
-        sql = ""
-        cur.execute(sql)
-        return cur.fetchall()  # 返回全部数据
 
-    # 屏幕捕获
-    # dr = Fixture.openweb.
-    def save_screenshot(self):
-        t = time.strftime('%Y-%m-%d %H-%M-%S')  # 系统当前时间
-        path = rf'E:\pythonProject-tinyshop\err_img\{t}.png'
-        self.dr.save_screenshot(path)  # 保存图片到本地
-        with open(path, 'rb') as i:
-            file = i.read()
-        allure.attach(file, '测试截图', allure.attachment_type.PNG)
+

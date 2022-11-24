@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-import yaml
+
 
 if __name__ == '__main__':
     pytest.main(['test_case/test_data.py', '--alluredir', './report/report-pytest', '--clean-alluredir'])
