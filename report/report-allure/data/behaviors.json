@@ -1,0 +1,209 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login[data0]",
+    "uid" : "dec72c35e0786144",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283630079,
+      "stop" : 1669283637266,
+      "duration" : 7187
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data2]",
+    "uid" : "4888f8fdeaaa91e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283630255,
+      "stop" : 1669283636642,
+      "duration" : 6387
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data3]",
+    "uid" : "22f4e8eaf8b4fea2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283636648,
+      "stop" : 1669283644342,
+      "duration" : 7694
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data1]",
+    "uid" : "a8d5f8881ab5c7eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283637272,
+      "stop" : 1669283640565,
+      "duration" : 3293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data5]",
+    "uid" : "82fc2c34e827a4a7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283640569,
+      "stop" : 1669283647536,
+      "duration" : 6967
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data4]",
+    "uid" : "e1ef42c615f7a7f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283644347,
+      "stop" : 1669283646554,
+      "duration" : 2207
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data7]",
+    "uid" : "9da4d262eaa879da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283646561,
+      "stop" : 1669283648842,
+      "duration" : 2281
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data6]",
+    "uid" : "b141c487981515af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283647543,
+      "stop" : 1669283649249,
+      "duration" : 1706
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data8]",
+    "uid" : "6a18979e3f388a57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283648849,
+      "stop" : 1669283655033,
+      "duration" : 6184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data9]",
+    "uid" : "c6b8d6b4ee8ff8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283649254,
+      "stop" : 1669283650678,
+      "duration" : 1424
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'cypress', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data11]",
+    "uid" : "38bbf141f18e890a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283650683,
+      "stop" : 1669283655131,
+      "duration" : 4448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  }, {
+    "name" : "test_login[data10]",
+    "uid" : "d00df5add6d7481e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669283655038,
+      "stop" : 1669283657596,
+      "duration" : 2558
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'text': 'selenium', 'name': 'admin1', 'pwd': 'admin123456'}" ]
+  } ]
+}
