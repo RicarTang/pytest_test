@@ -1,3 +1,4 @@
+import os
 import time
 
 import allure
@@ -6,28 +7,26 @@ import pymysql
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
 import json
-
+import yaml
 # import page.login_page
 import conftest
+
+
 # from conftest import Fixture
 
 
-
 class Base():
-
     # 打开浏览器
     dr = webdriver.Chrome()
-    # def base_openurl(self,url):
-    #     self.driver.maximize_window()
-    #     self.driver.get(url)
-    # # 关闭浏览器
-    # def base_quiturl(self):
-    #     self.driver.quit()
 
-    # #打开网址
-    #
-    # def open(self,url):
-    #     self.dr.get(url)
+    # def __init__(self):
+    #     self.dr = webdriver.Chrome()
+
+    def openweb(self, url):
+        self.dr.get(url)
+
+    def closeweb(self):
+        self.dr.close()
 
     # 显示等待元素定位
     def base_find(self, ele):
@@ -55,11 +54,9 @@ class Base():
         return data
 
     # 读取yaml文件
-    def loadyaml(self, filepath):
+    def loadyaml(self, filepath: str):
         with open(filepath, 'r', encoding='utf-8') as file:
-            import yaml
-            data = yaml.load(file, Loader=yaml.FullLoader)
-        return data
+            return yaml.load(file, Loader=yaml.FullLoader)
 
     # 连接数据库
     def con_mysql(self):
@@ -82,13 +79,7 @@ class Base():
     def save_screenshot(self):
         t = time.strftime('%Y-%m-%d %H-%M-%S')  # 系统当前时间
         path = rf'E:\pythonProject-tinyshop\err_img\{t}.png'
-        self.dr.save_screenshot(path) # 保存图片到本地
-        with open(path,'rb') as i:
+        self.dr.save_screenshot(path)  # 保存图片到本地
+        with open(path, 'rb') as i:
             file = i.read()
-        allure.attach(file,'测试截图',allure.attachment_type.PNG)
-
-
-
-if __name__ == '__main__':
-    a = Base()
-    a.base_sendkeys(('xpath', "//input[@name='name']"), 'admin')
+        allure.attach(file, '测试截图', allure.attachment_type.PNG)

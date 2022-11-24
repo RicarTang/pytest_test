@@ -4,6 +4,7 @@ from common.base import Base
 
 class Page_login(Base):
     # url1 = 'http://127.0.0.1/TinyShop/index.php?con=admin&act=login'
+
     # 定位器
 
     login_user = ('xpath', "//input[@name='name']")  # 用户名
