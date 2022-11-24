@@ -3,12 +3,12 @@ import time
 import pytest
 
 
-from common.base import Base
+from common import Base
 
 
 
 @pytest.fixture(scope='class')
-def openweb():
+def setup_teardown():
     base = Base()
     base.dr.maximize_window()
     # base.dr.get('http://192.168.0.130/TinyShop/index.php?con=admin&act=login')

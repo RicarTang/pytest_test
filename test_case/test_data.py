@@ -2,7 +2,7 @@
 import pytest
 import os
 from page import PageBaidu
-from common.base import Base
+from common import Base
 
 # #读取json文件
 base = Base()
@@ -16,8 +16,7 @@ class TestBaidu(PageBaidu):
         'data',
         base.loadyaml(os.path.join(os.path.dirname(__file__),'../data/baidu.yaml'))
     )
-    def test_login(self, data):
-        print(os.path.dirname(__file__))
+    def test_login(self, data,setup_teardown):
         self.openweb(super().url)
         self.send_text(data['text'])
         self.click_search()
